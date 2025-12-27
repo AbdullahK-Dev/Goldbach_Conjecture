@@ -1,8 +1,8 @@
 import math
-import NumPy
+import numpy as np
 
-p_nums = [False,False,True]
-gb_pairs = []
+p_nums = np.array([False,False,True])
+gb_pairs = np.array([])
 p_nums_length = len(p_nums)
 
 
@@ -30,7 +30,7 @@ def find_primes_until(num):
         return
 
     for counter in range(difference+1):#adds more True values until the list reaches the "limit" index number
-        p_nums.append(True)
+        p_nums = np.append(p_nums,True)
     p_nums_length = len(p_nums)
 
     limit = int(math.sqrt(p_nums_length)) + 1 # most efficent method as small primes would have marked all multiples
