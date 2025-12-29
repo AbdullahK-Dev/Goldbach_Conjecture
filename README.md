@@ -1,4 +1,34 @@
-I am attempting to make an algorithm that tests Goldbach's Conjecture(every even number > 2 can be written as the sum of 2 prime numbers, for example "8 = 5 + 3").
+## Overview
+
+This project investigates the Goldbach Conjecture which states every even number > 2 can be written as the sum of 2 prime numbers. Currently the program takes an even input and generates goldbach pairs for every even number up until the input storing each pair with the even number.
+
+## Learning Objectives
+
+- Improve my understanding of Git and Github.
+- Gain expereince with working with large numerical ranges.
+- Practise debugging and fixing errors.
+
+## Technical Implementation
+
+The program must be able to handle large ranges of even numbers making effecint algorithm design key. 
+Overall to find Goldbach Pairs the program first generates all the prime numbers until the limit which is the even number that the user inputs. Using the array with all the prime numbers the program finds the difference between the first prime in the array and the current even number. If the difference is prime then we have found our GoldBach Pair, else we continue to iterate through the prime numbers array. Once a Goldbach Pair has been found the program moves to the next even number and repeats this process until all pairs have been found.
+
+- a
+- a
+
+## Code Quality and Maintainability
+
+- a
+- a
+
+## Future Improvements
+
+- a
+- a
+
+
+
+I am attempting to make an algorithm that tests Goldbach's Conjecture, for example "8 = 5 + 3").
 
 The goal of this project is to help me improve core skills of programing, specifically readability and effencincy when writing code.
 Also its a fun puzzle :D
