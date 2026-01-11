@@ -1,6 +1,6 @@
 ## Overview
 
-This project investigates the Goldbach Conjecture which states every even number > 2 can be written as the sum of 2 prime numbers. Currently the program takes an even input and generates Goldbach pairs for every even number up until the input storing each pair with the even number.
+This project investigates the Goldbach Conjecture which states every even number > 2 can be written as the sum of 2 prime numbers. Currently the program takes an even input and generates Goldbach pairs for every even number up until the input storing each pair with the even number in an array then outputing the pairs and even numbers.
 
 ## Learning Objectives
 
@@ -15,7 +15,7 @@ To find Goldbach pairs the program must first generate an array with all primes 
 <br />
 
 Efficiency is key because the program must be able to handle large ranges, due to this the following features have been implemented: 
-- Sieve of Eratosthenes to efficiently generate prime numbers through reducing the number of iterations required to check a large range.
+- Sieve of Eratosthenes to efficiently find prime numbers through reducing the number of iterations required to check a large range.
 - Stored results to avoid unnecessary prime checks.
 - NumPy arrays because of their memory efficiency which decreases run time when generating prime numbers.
 
@@ -27,5 +27,6 @@ The following features are included to increase readability:
 
 ## Future Improvements
 
+- Get a fellow programer to review my code to test its readability and suggest and improvements.
 - Plotting graphs using libraries such as seaborn to make data easier to understand.
-- Porting the program to C++ because it is more efficient than python therefore allowing for even larger ranges.
+- Porting the program to C++ because it is more efficient than python.
